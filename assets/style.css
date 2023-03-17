@@ -1,5 +1,6 @@
 * {
     overflow-x: hidden;
+    text-decoration: none;
 }
 
 body {
@@ -9,13 +10,21 @@ body {
     padding: 15px;
     height: 100vh;
 }
-h1 {
+h1, h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    
+    width: 100%;    
     text-align: center;
+}
+h1 {
+    font-size: 5rem;
+    font-family: 'Questrial', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Climate Crisis', cursive;
 }
 
 .center {
@@ -44,13 +53,32 @@ h1 {
   
 }
 
+.logoSmall {
+    width: 5%;
+    position: absolute;
+    position: fixed;
+    left: 90%;
+    bottom: 85%;
+    z-index: 2;
+    
+}
+.mentor {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 2%;
+    
+    
+}
 .connect {
     border: 2px solid #D4AF37;
     border-radius:  50px;
     font-size: 5rem;
     background-color: white;
-    position: absolute;
-    top: 65%;
+    position: relative;
+    margin-top: 40px;
     left: 51%;
     transform: translate(-50%, -50%);
 }
@@ -60,6 +88,154 @@ h1 {
     color: white;
 }
 
-.sectionSpace {
-    height: 10rem;
+.confirm {
+    border: 2px solid #D4AF37;
+    border-radius:  50px;
+    font-size: 4rem;
+    background-color: white;
+    position: relative;
+    margin-top: 40px;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+.confirm:hover {
+    background-color: #D4AF37;
+    color: white;
+}
+.logBtn:hover {
+    background-color: #D4AF37;
+    color: white;
+}
+.logBtn {
+    border: 2px solid #D4AF37;
+    border-radius:  50px;
+    font-size: 1.5rem;
+    background-color: white;
+    position: relative;
+    margin-top: 40px;
+    left: 20%;
+    margin-right: 20px;
+    transform: translate(-50%, -50%);
+}
+.logBtn1:hover {
+    background-color: #D4AF37;
+    color: white;
+}
+.logBtn1 {
+    border: 2px solid #D4AF37;
+    border-radius:  50px;
+    font-size: 2rem;
+    background-color: white;
+    position: relative;
+    margin-top: 40px;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.anonBtn1 {
+    border: 2px solid #D4AF37;
+    border-radius:  50px;
+    font-size: 2rem;
+    background-color: white;
+    position: relative;
+    margin-top: 40px;    
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.anonBtn1:hover {
+    background-color: #D4AF37;
+    color: white;
+}
+
+
+
+.anonBtn {
+    border: 2px solid #D4AF37;
+    border-radius:  50px;
+    font-size: 1.5rem;
+    background-color: white;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.emerBtn {
+    border: 2px solid #D4AF37;
+    border-radius:  50px;
+    font-size: 3.5rem;
+    background-color: white;
+    position: relative;
+    margin-top: 40px;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+.apptBtn {
+    background-color: white;
+    border: 2px solid #D4AF37;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.3rem;
+}
+.anonBtn:hover {
+    background-color: #D4AF37;
+    color: white;
+}
+.emerBtn:hover {
+    background-color: #D4AF37;
+    color: white;
+   
+}
+
+.line {
+    width: 80%;    
+    background-color: #D4AF37;
+    border: 2px solid #D4AF37;
+}
+.line2 {
+    width: 40%;    
+    background-color: #D4AF37;
+    border: 2px solid #D4AF37;
+}
+.endBtn {
+    background-color: white;
+    border: 2px solid #D4AF37;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.3rem;
+    
+}
+.endBtn:hover {
+    background-color: #D4AF37;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLinks {
+    color:#000000;
+    font-size: 30px;
+    
+    
+}
+
+.navLinks:hover {
+    color:#D4AF37;
+}
+
+.navMove {
+    position: fixed;
+}
+
+a{ 
+    color: black;
 }
